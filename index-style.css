@@ -20,7 +20,7 @@
   background-size: 100%;
   background-position: center center;
   height: 100vh;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -74,17 +74,30 @@
 
 .carusle 
 {
-    text-align: center;
+    /* text-align: center;
     color: white;
     margin-top: 150px;
     padding-top: 70px;
     font-size: larger;
-    
+     */
+
+      position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  z-index: 2;
+  color:#d3d3d3 ;
 }
+
 
 .carusle p 
 {
    padding-top: 30px;
+   text-align: center;
+   margin-bottom: 20px;
 }
 
 .carusle  h1
@@ -99,8 +112,8 @@
   border-color: antiquewhite;
     border-radius: 10%;
     padding: 20px 30px;
-    margin-top: 50px;
-    margin-bottom: 70px;
+    /* margin-top: 10px;
+    margin-bottom: 70px; */
 
 }
 .button-2 
@@ -108,7 +121,9 @@
     background-color : transparent ;
     color: white;
     transition: 1s;
-    
+    margin-top: 10px;
+    padding: 20px 32px !important; 
+
 }
 
 .button-2:hover
